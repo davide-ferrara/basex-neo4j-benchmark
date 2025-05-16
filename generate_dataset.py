@@ -16,6 +16,22 @@ def write_csv(dataset_name: str, fieldnames: list, buffer: list):
         print(f"Error occured while writing CSV file: {e}")
 
 
+
+# Numero record per ogni entità
+ADMIN_NUM = 2500
+COMPANIES_NUM = 25000
+UBO_NUM = 5000
+TRANSACTIONS_NUM = 200000
+KYC_AML_CHECKS_NUM = 15000
+SHAREHOLDERS_NUM = 2500
+#
+# ADMIN_NUM = 5000
+# COMPANIES_NUM = 500
+# UBO_NUM = 100
+# TRANSACTIONS_NUM = 1000
+# KYC_AML_CHECKS_NUM = 300
+# SHAREHOLDERS_NUM = 50
+
 fake = Faker()
 
 legal_forms = [
@@ -50,14 +66,6 @@ currencies = [
     "HKD",  # Dollaro di Hong Kong
     "RUB",  # Rublo russo
 ]
-
-# Numero record per ogni entità
-ADMIN_NUM = 5000
-COMPANIES_NUM = 50000
-UBO_NUM = 10000
-TRANSACTIONS_NUM = 400000
-KYC_AML_CHECKS_NUM = 30000
-SHAREHOLDERS_NUM = 5000
 
 # Generazione dati per gli amministratori
 admins = []

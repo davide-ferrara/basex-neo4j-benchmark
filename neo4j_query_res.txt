@@ -1,0 +1,765 @@
+
+Running queries for percentage: 100%
+
+Response time (first execution - Query 1): 17.04 ms
+Query 1 Result: 
+[
+    {
+        "c": {
+            "address": "012 Michael Plains\nAmyport, MI 27070",
+            "registration_details": "727-96-9636",
+            "name": "Robertson Inc",
+            "id": 5722,
+            "financial_data": "[{\"year\": 2021, \"revenue\": 546278.77, \"profit\": 53410.93}, {\"year\": 2016, \"revenue\": 381695.72, \"profit\": 452075.68}]",
+            "legal_form": "Trust"
+        }
+    }
+]
+
+Average time of 30 subsequent executions (Query 1): 9.58 ms
+Confidence Interval (Query 1): [9.08, 10.07] ms
+
+Response time (first execution - Query 2): 6.41 ms
+Query 2 Result: 
+[
+    {
+        "c": {
+            "address": "17574 Donald Shoals Suite 522\nPort Judyport, FL 26854",
+            "registration_details": "840-72-7780",
+            "name": "Jones, Campbell and Clark",
+            "id": 2764,
+            "financial_data": "[{\"year\": 2022, \"revenue\": 233112.41, \"profit\": 428486.2}, {\"year\": 2020, \"revenue\": 490346.36, \"profit\": 348760.5}, {\"year\": 2018, \"revenue\": 169237.65, \"profit\": 193709.8}, {\"year\": 2018, \"revenue\": 995131.06, \"profit\": 182076.09}, {\"year\": 2023, \"revenue\": 494248.76, \"profit\": 389089.31}]",
+            "legal_form": "Coop"
+        },
+        "administrators": [
+            {
+                "address": "7897 Walters Ports Suite 547\nWhitemouth, TN 68034",
+                "birthdate": "1967-04-09",
+                "nationality": "Benin",
+                "name": "Richard Murphy",
+                "id": 391
+            },
+            {
+                "address": "2211 Edgar Mills\nLarachester, AK 90925",
+                "birthdate": "1972-12-02",
+                "nationality": "Hungary",
+                "name": "Rebecca Fowler",
+                "id": 1430
+            },
+            {
+                "address": "830 Myers Lane Apt. 576\nSouth Jennifer, DE 72109",
+                "birthdate": "1955-06-12",
+                "nationality": "Norfolk Island",
+                "name": "Jeffrey Wallace",
+                "id": 2210
+            }
+        ]
+    }
+]
+
+Average time of 30 subsequent executions (Query 2): 6.51 ms
+Confidence Interval (Query 2): [6.32, 6.7] ms
+
+Response time (first execution - Query 3): 6.69 ms
+Query 3 Result: 
+[
+    {
+        "c": {
+            "address": "17574 Donald Shoals Suite 522\nPort Judyport, FL 26854",
+            "registration_details": "840-72-7780",
+            "name": "Jones, Campbell and Clark",
+            "id": 2764,
+            "financial_data": "[{\"year\": 2022, \"revenue\": 233112.41, \"profit\": 428486.2}, {\"year\": 2020, \"revenue\": 490346.36, \"profit\": 348760.5}, {\"year\": 2018, \"revenue\": 169237.65, \"profit\": 193709.8}, {\"year\": 2018, \"revenue\": 995131.06, \"profit\": 182076.09}, {\"year\": 2023, \"revenue\": 494248.76, \"profit\": 389089.31}]",
+            "legal_form": "Coop"
+        },
+        "administrators": [
+            {
+                "address": "7897 Walters Ports Suite 547\nWhitemouth, TN 68034",
+                "birthdate": "1967-04-09",
+                "nationality": "Benin",
+                "name": "Richard Murphy",
+                "id": 391
+            },
+            {
+                "address": "2211 Edgar Mills\nLarachester, AK 90925",
+                "birthdate": "1972-12-02",
+                "nationality": "Hungary",
+                "name": "Rebecca Fowler",
+                "id": 1430
+            },
+            {
+                "address": "830 Myers Lane Apt. 576\nSouth Jennifer, DE 72109",
+                "birthdate": "1955-06-12",
+                "nationality": "Norfolk Island",
+                "name": "Jeffrey Wallace",
+                "id": 2210
+            }
+        ],
+        "ubos": [
+            {
+                "address": "321 Harris Stream Suite 785\nNorth David, VI 70534",
+                "birthdate": "2007-05-11",
+                "nationality": "Kyrgyz Republic",
+                "name": "Edward Riley",
+                "id": 4258,
+                "type": "Company",
+                "ownership_percentage": 96.82
+            }
+        ]
+    }
+]
+
+Average time of 30 subsequent executions (Query 3): 6.52 ms
+Confidence Interval (Query 3): [6.44, 6.6] ms
+
+Response time (first execution - Query 4): 8.41 ms
+Query 4 Result: 
+[
+    {
+        "c": {
+            "address": "17574 Donald Shoals Suite 522\nPort Judyport, FL 26854",
+            "registration_details": "840-72-7780",
+            "name": "Jones, Campbell and Clark",
+            "id": 2764,
+            "financial_data": "[{\"year\": 2022, \"revenue\": 233112.41, \"profit\": 428486.2}, {\"year\": 2020, \"revenue\": 490346.36, \"profit\": 348760.5}, {\"year\": 2018, \"revenue\": 169237.65, \"profit\": 193709.8}, {\"year\": 2018, \"revenue\": 995131.06, \"profit\": 182076.09}, {\"year\": 2023, \"revenue\": 494248.76, \"profit\": 389089.31}]",
+            "legal_form": "Coop"
+        },
+        "administrators": [
+            {
+                "address": "7897 Walters Ports Suite 547\nWhitemouth, TN 68034",
+                "birthdate": "1967-04-09",
+                "nationality": "Benin",
+                "name": "Richard Murphy",
+                "id": 391
+            },
+            {
+                "address": "2211 Edgar Mills\nLarachester, AK 90925",
+                "birthdate": "1972-12-02",
+                "nationality": "Hungary",
+                "name": "Rebecca Fowler",
+                "id": 1430
+            },
+            {
+                "address": "830 Myers Lane Apt. 576\nSouth Jennifer, DE 72109",
+                "birthdate": "1955-06-12",
+                "nationality": "Norfolk Island",
+                "name": "Jeffrey Wallace",
+                "id": 2210
+            }
+        ],
+        "ubos": [
+            {
+                "address": "321 Harris Stream Suite 785\nNorth David, VI 70534",
+                "birthdate": "2007-05-11",
+                "nationality": "Kyrgyz Republic",
+                "name": "Edward Riley",
+                "id": 4258,
+                "type": "Company",
+                "ownership_percentage": 96.82
+            }
+        ],
+        "total_amount": 39659.04
+    }
+]
+
+Average time of 30 subsequent executions (Query 4): 8.62 ms
+Confidence Interval (Query 4): [8.42, 8.81] ms
+
+Response time (first execution - Query 5): 8.83 ms
+Query 5 Result: 
+[
+    {
+        "company": {
+            "address": "17574 Donald Shoals Suite 522\nPort Judyport, FL 26854",
+            "registration_details": "840-72-7780",
+            "name": "Jones, Campbell and Clark",
+            "id": 2764,
+            "financial_data": "[{\"year\": 2022, \"revenue\": 233112.41, \"profit\": 428486.2}, {\"year\": 2020, \"revenue\": 490346.36, \"profit\": 348760.5}, {\"year\": 2018, \"revenue\": 169237.65, \"profit\": 193709.8}, {\"year\": 2018, \"revenue\": 995131.06, \"profit\": 182076.09}, {\"year\": 2023, \"revenue\": 494248.76, \"profit\": 389089.31}]",
+            "legal_form": "Coop"
+        },
+        "administrators": [
+            {
+                "address": "7897 Walters Ports Suite 547\nWhitemouth, TN 68034",
+                "birthdate": "1967-04-09",
+                "nationality": "Benin",
+                "name": "Richard Murphy",
+                "id": 391
+            },
+            {
+                "address": "2211 Edgar Mills\nLarachester, AK 90925",
+                "birthdate": "1972-12-02",
+                "nationality": "Hungary",
+                "name": "Rebecca Fowler",
+                "id": 1430
+            },
+            {
+                "address": "830 Myers Lane Apt. 576\nSouth Jennifer, DE 72109",
+                "birthdate": "1955-06-12",
+                "nationality": "Norfolk Island",
+                "name": "Jeffrey Wallace",
+                "id": 2210
+            }
+        ],
+        "ubos": [
+            {
+                "address": "321 Harris Stream Suite 785\nNorth David, VI 70534",
+                "birthdate": "2007-05-11",
+                "nationality": "Kyrgyz Republic",
+                "name": "Edward Riley",
+                "id": 4258,
+                "type": "Company",
+                "ownership_percentage": 96.82
+            }
+        ],
+        "total_amount": 0,
+        "shareholders": [
+            {
+                "address": "171 Underwood Points\nBrownburgh, MI 07147",
+                "birthdate": "1972-12-11",
+                "nationality": "British Virgin Islands",
+                "name": "Amanda Bright",
+                "id": 63,
+                "type": "Person",
+                "ownership_percentage": 49.3
+            },
+            {
+                "address": "9082 Lewis Estates Suite 279\nNew Danielton, DE 42082",
+                "birthdate": "2000-11-08",
+                "nationality": "British Virgin Islands",
+                "name": "Katherine Higgins",
+                "id": 1398,
+                "type": "Company",
+                "ownership_percentage": 69.23
+            },
+            {
+                "address": "1647 Wiggins Inlet Suite 624\nEast Alishahaven, NV 41820",
+                "birthdate": "1955-04-16",
+                "nationality": "British Virgin Islands",
+                "name": "Heather Kemp",
+                "id": 1790,
+                "type": "Company",
+                "ownership_percentage": 76.34
+            },
+            {
+                "address": "0708 Smith Crossing\nWest Samuel, KS 93726",
+                "birthdate": "1953-05-19",
+                "nationality": "British Virgin Islands",
+                "name": "Jennifer Meyers",
+                "id": 1860,
+                "type": "Person",
+                "ownership_percentage": 90.12
+            }
+        ]
+    }
+]
+
+Average time of 30 subsequent executions (Query 5): 9.28 ms
+Confidence Interval (Query 5): [8.76, 9.8] ms
+
+
+Running queries for percentage: 75%
+
+No results founds!
+
+Average time of 30 subsequent executions (Query 1): 7.64 ms
+Confidence Interval (Query 1): [7.31, 7.97] ms
+
+Response time (first execution - Query 2): 5.2 ms
+Query 2 Result: 
+[
+    {
+        "c": {
+            "address": "17574 Donald Shoals Suite 522\nPort Judyport, FL 26854",
+            "registration_details": "840-72-7780",
+            "name": "Jones, Campbell and Clark",
+            "id": 2764,
+            "financial_data": "[{\"year\": 2022, \"revenue\": 233112.41, \"profit\": 428486.2}, {\"year\": 2020, \"revenue\": 490346.36, \"profit\": 348760.5}, {\"year\": 2018, \"revenue\": 169237.65, \"profit\": 193709.8}, {\"year\": 2018, \"revenue\": 995131.06, \"profit\": 182076.09}, {\"year\": 2023, \"revenue\": 494248.76, \"profit\": 389089.31}]",
+            "legal_form": "Coop"
+        },
+        "administrators": [
+            {
+                "address": "7897 Walters Ports Suite 547\nWhitemouth, TN 68034",
+                "birthdate": "1967-04-09",
+                "nationality": "Benin",
+                "name": "Richard Murphy",
+                "id": 391
+            },
+            {
+                "address": "830 Myers Lane Apt. 576\nSouth Jennifer, DE 72109",
+                "birthdate": "1955-06-12",
+                "nationality": "Norfolk Island",
+                "name": "Jeffrey Wallace",
+                "id": 2210
+            },
+            {
+                "address": "2211 Edgar Mills\nLarachester, AK 90925",
+                "birthdate": "1972-12-02",
+                "nationality": "Hungary",
+                "name": "Rebecca Fowler",
+                "id": 1430
+            }
+        ]
+    }
+]
+
+Average time of 30 subsequent executions (Query 2): 5.08 ms
+Confidence Interval (Query 2): [4.93, 5.22] ms
+
+Response time (first execution - Query 3): 6.56 ms
+Query 3 Result: 
+[
+    {
+        "c": {
+            "address": "17574 Donald Shoals Suite 522\nPort Judyport, FL 26854",
+            "registration_details": "840-72-7780",
+            "name": "Jones, Campbell and Clark",
+            "id": 2764,
+            "financial_data": "[{\"year\": 2022, \"revenue\": 233112.41, \"profit\": 428486.2}, {\"year\": 2020, \"revenue\": 490346.36, \"profit\": 348760.5}, {\"year\": 2018, \"revenue\": 169237.65, \"profit\": 193709.8}, {\"year\": 2018, \"revenue\": 995131.06, \"profit\": 182076.09}, {\"year\": 2023, \"revenue\": 494248.76, \"profit\": 389089.31}]",
+            "legal_form": "Coop"
+        },
+        "administrators": [
+            {
+                "address": "7897 Walters Ports Suite 547\nWhitemouth, TN 68034",
+                "birthdate": "1967-04-09",
+                "nationality": "Benin",
+                "name": "Richard Murphy",
+                "id": 391
+            },
+            {
+                "address": "830 Myers Lane Apt. 576\nSouth Jennifer, DE 72109",
+                "birthdate": "1955-06-12",
+                "nationality": "Norfolk Island",
+                "name": "Jeffrey Wallace",
+                "id": 2210
+            },
+            {
+                "address": "2211 Edgar Mills\nLarachester, AK 90925",
+                "birthdate": "1972-12-02",
+                "nationality": "Hungary",
+                "name": "Rebecca Fowler",
+                "id": 1430
+            }
+        ],
+        "ubos": []
+    }
+]
+
+Average time of 30 subsequent executions (Query 3): 6.09 ms
+Confidence Interval (Query 3): [5.75, 6.44] ms
+
+Response time (first execution - Query 4): 6.76 ms
+Query 4 Result: 
+[
+    {
+        "c": {
+            "address": "17574 Donald Shoals Suite 522\nPort Judyport, FL 26854",
+            "registration_details": "840-72-7780",
+            "name": "Jones, Campbell and Clark",
+            "id": 2764,
+            "financial_data": "[{\"year\": 2022, \"revenue\": 233112.41, \"profit\": 428486.2}, {\"year\": 2020, \"revenue\": 490346.36, \"profit\": 348760.5}, {\"year\": 2018, \"revenue\": 169237.65, \"profit\": 193709.8}, {\"year\": 2018, \"revenue\": 995131.06, \"profit\": 182076.09}, {\"year\": 2023, \"revenue\": 494248.76, \"profit\": 389089.31}]",
+            "legal_form": "Coop"
+        },
+        "administrators": [
+            {
+                "address": "7897 Walters Ports Suite 547\nWhitemouth, TN 68034",
+                "birthdate": "1967-04-09",
+                "nationality": "Benin",
+                "name": "Richard Murphy",
+                "id": 391
+            },
+            {
+                "address": "830 Myers Lane Apt. 576\nSouth Jennifer, DE 72109",
+                "birthdate": "1955-06-12",
+                "nationality": "Norfolk Island",
+                "name": "Jeffrey Wallace",
+                "id": 2210
+            },
+            {
+                "address": "2211 Edgar Mills\nLarachester, AK 90925",
+                "birthdate": "1972-12-02",
+                "nationality": "Hungary",
+                "name": "Rebecca Fowler",
+                "id": 1430
+            }
+        ],
+        "ubos": [],
+        "total_amount": 39659.03999999999
+    }
+]
+
+Average time of 30 subsequent executions (Query 4): 6.85 ms
+Confidence Interval (Query 4): [6.78, 6.93] ms
+
+Response time (first execution - Query 5): 7.32 ms
+Query 5 Result: 
+[
+    {
+        "company": {
+            "address": "17574 Donald Shoals Suite 522\nPort Judyport, FL 26854",
+            "registration_details": "840-72-7780",
+            "name": "Jones, Campbell and Clark",
+            "id": 2764,
+            "financial_data": "[{\"year\": 2022, \"revenue\": 233112.41, \"profit\": 428486.2}, {\"year\": 2020, \"revenue\": 490346.36, \"profit\": 348760.5}, {\"year\": 2018, \"revenue\": 169237.65, \"profit\": 193709.8}, {\"year\": 2018, \"revenue\": 995131.06, \"profit\": 182076.09}, {\"year\": 2023, \"revenue\": 494248.76, \"profit\": 389089.31}]",
+            "legal_form": "Coop"
+        },
+        "administrators": [
+            {
+                "address": "7897 Walters Ports Suite 547\nWhitemouth, TN 68034",
+                "birthdate": "1967-04-09",
+                "nationality": "Benin",
+                "name": "Richard Murphy",
+                "id": 391
+            },
+            {
+                "address": "830 Myers Lane Apt. 576\nSouth Jennifer, DE 72109",
+                "birthdate": "1955-06-12",
+                "nationality": "Norfolk Island",
+                "name": "Jeffrey Wallace",
+                "id": 2210
+            },
+            {
+                "address": "2211 Edgar Mills\nLarachester, AK 90925",
+                "birthdate": "1972-12-02",
+                "nationality": "Hungary",
+                "name": "Rebecca Fowler",
+                "id": 1430
+            }
+        ],
+        "ubos": [],
+        "total_amount": 0,
+        "shareholders": [
+            {
+                "address": "171 Underwood Points\nBrownburgh, MI 07147",
+                "birthdate": "1972-12-11",
+                "nationality": "British Virgin Islands",
+                "name": "Amanda Bright",
+                "id": 63,
+                "type": "Person",
+                "ownership_percentage": 49.3
+            },
+            {
+                "address": "1647 Wiggins Inlet Suite 624\nEast Alishahaven, NV 41820",
+                "birthdate": "1955-04-16",
+                "nationality": "British Virgin Islands",
+                "name": "Heather Kemp",
+                "id": 1790,
+                "type": "Company",
+                "ownership_percentage": 76.34
+            }
+        ]
+    }
+]
+
+Average time of 30 subsequent executions (Query 5): 7.3 ms
+Confidence Interval (Query 5): [7.12, 7.49] ms
+
+
+Running queries for percentage: 50%
+
+No results founds!
+
+Average time of 30 subsequent executions (Query 1): 6.17 ms
+Confidence Interval (Query 1): [5.99, 6.35] ms
+
+Response time (first execution - Query 2): 3.77 ms
+Query 2 Result: 
+[
+    {
+        "c": {
+            "address": "17574 Donald Shoals Suite 522\nPort Judyport, FL 26854",
+            "registration_details": "840-72-7780",
+            "name": "Jones, Campbell and Clark",
+            "id": 2764,
+            "financial_data": "[{\"year\": 2022, \"revenue\": 233112.41, \"profit\": 428486.2}, {\"year\": 2020, \"revenue\": 490346.36, \"profit\": 348760.5}, {\"year\": 2018, \"revenue\": 169237.65, \"profit\": 193709.8}, {\"year\": 2018, \"revenue\": 995131.06, \"profit\": 182076.09}, {\"year\": 2023, \"revenue\": 494248.76, \"profit\": 389089.31}]",
+            "legal_form": "Coop"
+        },
+        "administrators": [
+            {
+                "address": "830 Myers Lane Apt. 576\nSouth Jennifer, DE 72109",
+                "birthdate": "1955-06-12",
+                "nationality": "Norfolk Island",
+                "name": "Jeffrey Wallace",
+                "id": 2210
+            },
+            {
+                "address": "7897 Walters Ports Suite 547\nWhitemouth, TN 68034",
+                "birthdate": "1967-04-09",
+                "nationality": "Benin",
+                "name": "Richard Murphy",
+                "id": 391
+            },
+            {
+                "address": "2211 Edgar Mills\nLarachester, AK 90925",
+                "birthdate": "1972-12-02",
+                "nationality": "Hungary",
+                "name": "Rebecca Fowler",
+                "id": 1430
+            }
+        ]
+    }
+]
+
+Average time of 30 subsequent executions (Query 2): 3.71 ms
+Confidence Interval (Query 2): [3.67, 3.75] ms
+
+Response time (first execution - Query 3): 5.24 ms
+Query 3 Result: 
+[
+    {
+        "c": {
+            "address": "17574 Donald Shoals Suite 522\nPort Judyport, FL 26854",
+            "registration_details": "840-72-7780",
+            "name": "Jones, Campbell and Clark",
+            "id": 2764,
+            "financial_data": "[{\"year\": 2022, \"revenue\": 233112.41, \"profit\": 428486.2}, {\"year\": 2020, \"revenue\": 490346.36, \"profit\": 348760.5}, {\"year\": 2018, \"revenue\": 169237.65, \"profit\": 193709.8}, {\"year\": 2018, \"revenue\": 995131.06, \"profit\": 182076.09}, {\"year\": 2023, \"revenue\": 494248.76, \"profit\": 389089.31}]",
+            "legal_form": "Coop"
+        },
+        "administrators": [
+            {
+                "address": "830 Myers Lane Apt. 576\nSouth Jennifer, DE 72109",
+                "birthdate": "1955-06-12",
+                "nationality": "Norfolk Island",
+                "name": "Jeffrey Wallace",
+                "id": 2210
+            },
+            {
+                "address": "7897 Walters Ports Suite 547\nWhitemouth, TN 68034",
+                "birthdate": "1967-04-09",
+                "nationality": "Benin",
+                "name": "Richard Murphy",
+                "id": 391
+            },
+            {
+                "address": "2211 Edgar Mills\nLarachester, AK 90925",
+                "birthdate": "1972-12-02",
+                "nationality": "Hungary",
+                "name": "Rebecca Fowler",
+                "id": 1430
+            }
+        ],
+        "ubos": []
+    }
+]
+
+Average time of 30 subsequent executions (Query 3): 5.14 ms
+Confidence Interval (Query 3): [4.7, 5.58] ms
+
+Response time (first execution - Query 4): 6.8 ms
+Query 4 Result: 
+[
+    {
+        "c": {
+            "address": "17574 Donald Shoals Suite 522\nPort Judyport, FL 26854",
+            "registration_details": "840-72-7780",
+            "name": "Jones, Campbell and Clark",
+            "id": 2764,
+            "financial_data": "[{\"year\": 2022, \"revenue\": 233112.41, \"profit\": 428486.2}, {\"year\": 2020, \"revenue\": 490346.36, \"profit\": 348760.5}, {\"year\": 2018, \"revenue\": 169237.65, \"profit\": 193709.8}, {\"year\": 2018, \"revenue\": 995131.06, \"profit\": 182076.09}, {\"year\": 2023, \"revenue\": 494248.76, \"profit\": 389089.31}]",
+            "legal_form": "Coop"
+        },
+        "administrators": [
+            {
+                "address": "830 Myers Lane Apt. 576\nSouth Jennifer, DE 72109",
+                "birthdate": "1955-06-12",
+                "nationality": "Norfolk Island",
+                "name": "Jeffrey Wallace",
+                "id": 2210
+            },
+            {
+                "address": "7897 Walters Ports Suite 547\nWhitemouth, TN 68034",
+                "birthdate": "1967-04-09",
+                "nationality": "Benin",
+                "name": "Richard Murphy",
+                "id": 391
+            },
+            {
+                "address": "2211 Edgar Mills\nLarachester, AK 90925",
+                "birthdate": "1972-12-02",
+                "nationality": "Hungary",
+                "name": "Rebecca Fowler",
+                "id": 1430
+            }
+        ],
+        "ubos": [],
+        "total_amount": 29462.039999999997
+    }
+]
+
+Average time of 30 subsequent executions (Query 4): 5.48 ms
+Confidence Interval (Query 4): [5.3, 5.66] ms
+
+Response time (first execution - Query 5): 5.47 ms
+Query 5 Result: 
+[
+    {
+        "company": {
+            "address": "17574 Donald Shoals Suite 522\nPort Judyport, FL 26854",
+            "registration_details": "840-72-7780",
+            "name": "Jones, Campbell and Clark",
+            "id": 2764,
+            "financial_data": "[{\"year\": 2022, \"revenue\": 233112.41, \"profit\": 428486.2}, {\"year\": 2020, \"revenue\": 490346.36, \"profit\": 348760.5}, {\"year\": 2018, \"revenue\": 169237.65, \"profit\": 193709.8}, {\"year\": 2018, \"revenue\": 995131.06, \"profit\": 182076.09}, {\"year\": 2023, \"revenue\": 494248.76, \"profit\": 389089.31}]",
+            "legal_form": "Coop"
+        },
+        "administrators": [
+            {
+                "address": "830 Myers Lane Apt. 576\nSouth Jennifer, DE 72109",
+                "birthdate": "1955-06-12",
+                "nationality": "Norfolk Island",
+                "name": "Jeffrey Wallace",
+                "id": 2210
+            },
+            {
+                "address": "7897 Walters Ports Suite 547\nWhitemouth, TN 68034",
+                "birthdate": "1967-04-09",
+                "nationality": "Benin",
+                "name": "Richard Murphy",
+                "id": 391
+            },
+            {
+                "address": "2211 Edgar Mills\nLarachester, AK 90925",
+                "birthdate": "1972-12-02",
+                "nationality": "Hungary",
+                "name": "Rebecca Fowler",
+                "id": 1430
+            }
+        ],
+        "ubos": [],
+        "total_amount": 0,
+        "shareholders": [
+            {
+                "address": "171 Underwood Points\nBrownburgh, MI 07147",
+                "birthdate": "1972-12-11",
+                "nationality": "British Virgin Islands",
+                "name": "Amanda Bright",
+                "id": 63,
+                "type": "Person",
+                "ownership_percentage": 49.3
+            }
+        ]
+    }
+]
+
+Average time of 30 subsequent executions (Query 5): 5.44 ms
+Confidence Interval (Query 5): [5.36, 5.51] ms
+
+
+Running queries for percentage: 25%
+
+No results founds!
+
+Average time of 30 subsequent executions (Query 1): 3.52 ms
+Confidence Interval (Query 1): [3.47, 3.56] ms
+
+Response time (first execution - Query 2): 2.86 ms
+Query 2 Result: 
+[
+    {
+        "c": {
+            "address": "17574 Donald Shoals Suite 522\nPort Judyport, FL 26854",
+            "registration_details": "840-72-7780",
+            "name": "Jones, Campbell and Clark",
+            "id": 2764,
+            "financial_data": "[{\"year\": 2022, \"revenue\": 233112.41, \"profit\": 428486.2}, {\"year\": 2020, \"revenue\": 490346.36, \"profit\": 348760.5}, {\"year\": 2018, \"revenue\": 169237.65, \"profit\": 193709.8}, {\"year\": 2018, \"revenue\": 995131.06, \"profit\": 182076.09}, {\"year\": 2023, \"revenue\": 494248.76, \"profit\": 389089.31}]",
+            "legal_form": "Coop"
+        },
+        "administrators": [
+            {
+                "address": "830 Myers Lane Apt. 576\nSouth Jennifer, DE 72109",
+                "birthdate": "1955-06-12",
+                "nationality": "Norfolk Island",
+                "name": "Jeffrey Wallace",
+                "id": 2210
+            }
+        ]
+    }
+]
+
+Average time of 30 subsequent executions (Query 2): 2.58 ms
+Confidence Interval (Query 2): [2.47, 2.7] ms
+
+Response time (first execution - Query 3): 2.91 ms
+Query 3 Result: 
+[
+    {
+        "c": {
+            "address": "17574 Donald Shoals Suite 522\nPort Judyport, FL 26854",
+            "registration_details": "840-72-7780",
+            "name": "Jones, Campbell and Clark",
+            "id": 2764,
+            "financial_data": "[{\"year\": 2022, \"revenue\": 233112.41, \"profit\": 428486.2}, {\"year\": 2020, \"revenue\": 490346.36, \"profit\": 348760.5}, {\"year\": 2018, \"revenue\": 169237.65, \"profit\": 193709.8}, {\"year\": 2018, \"revenue\": 995131.06, \"profit\": 182076.09}, {\"year\": 2023, \"revenue\": 494248.76, \"profit\": 389089.31}]",
+            "legal_form": "Coop"
+        },
+        "administrators": [
+            {
+                "address": "830 Myers Lane Apt. 576\nSouth Jennifer, DE 72109",
+                "birthdate": "1955-06-12",
+                "nationality": "Norfolk Island",
+                "name": "Jeffrey Wallace",
+                "id": 2210
+            }
+        ],
+        "ubos": []
+    }
+]
+
+Average time of 30 subsequent executions (Query 3): 3.31 ms
+Confidence Interval (Query 3): [3.18, 3.44] ms
+
+Response time (first execution - Query 4): 3.57 ms
+Query 4 Result: 
+[
+    {
+        "c": {
+            "address": "17574 Donald Shoals Suite 522\nPort Judyport, FL 26854",
+            "registration_details": "840-72-7780",
+            "name": "Jones, Campbell and Clark",
+            "id": 2764,
+            "financial_data": "[{\"year\": 2022, \"revenue\": 233112.41, \"profit\": 428486.2}, {\"year\": 2020, \"revenue\": 490346.36, \"profit\": 348760.5}, {\"year\": 2018, \"revenue\": 169237.65, \"profit\": 193709.8}, {\"year\": 2018, \"revenue\": 995131.06, \"profit\": 182076.09}, {\"year\": 2023, \"revenue\": 494248.76, \"profit\": 389089.31}]",
+            "legal_form": "Coop"
+        },
+        "administrators": [
+            {
+                "address": "830 Myers Lane Apt. 576\nSouth Jennifer, DE 72109",
+                "birthdate": "1955-06-12",
+                "nationality": "Norfolk Island",
+                "name": "Jeffrey Wallace",
+                "id": 2210
+            }
+        ],
+        "ubos": [],
+        "total_amount": 5992.87
+    }
+]
+
+Average time of 30 subsequent executions (Query 4): 3.22 ms
+Confidence Interval (Query 4): [3.18, 3.26] ms
+
+Response time (first execution - Query 5): 3.49 ms
+Query 5 Result: 
+[
+    {
+        "company": {
+            "address": "17574 Donald Shoals Suite 522\nPort Judyport, FL 26854",
+            "registration_details": "840-72-7780",
+            "name": "Jones, Campbell and Clark",
+            "id": 2764,
+            "financial_data": "[{\"year\": 2022, \"revenue\": 233112.41, \"profit\": 428486.2}, {\"year\": 2020, \"revenue\": 490346.36, \"profit\": 348760.5}, {\"year\": 2018, \"revenue\": 169237.65, \"profit\": 193709.8}, {\"year\": 2018, \"revenue\": 995131.06, \"profit\": 182076.09}, {\"year\": 2023, \"revenue\": 494248.76, \"profit\": 389089.31}]",
+            "legal_form": "Coop"
+        },
+        "administrators": [
+            {
+                "address": "830 Myers Lane Apt. 576\nSouth Jennifer, DE 72109",
+                "birthdate": "1955-06-12",
+                "nationality": "Norfolk Island",
+                "name": "Jeffrey Wallace",
+                "id": 2210
+            }
+        ],
+        "ubos": [],
+        "total_amount": 0,
+        "shareholders": []
+    }
+]
+
+Average time of 30 subsequent executions (Query 5): 4.16 ms
+Confidence Interval (Query 5): [2.42, 5.9] ms
+

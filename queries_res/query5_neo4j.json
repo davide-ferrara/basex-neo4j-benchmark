@@ -1,0 +1,274 @@
+﻿[
+  {
+    "company": {
+      "identity": 211913,
+      "labels": [
+        "Companies"
+      ],
+      "properties": {
+        "address": "45909 Richard Grove
+South Adamview, NE 20814",
+        "registration_details": "257-25-5920",
+        "name": "Johnson-Rodriguez",
+        "id": 1914,
+        "financial_data": "[{\"year\": 2015, \"revenue\": 660228.72, \"profit\": 107310.17}, {\"year\": 2022, \"revenue\": 398216.76, \"profit\": 283462.29}]",
+        "legal_form": "Onlus"
+      },
+      "elementId": "4:034c8a42-179d-42e6-bd14-56b35acf724d:211913"
+    },
+    "administrators": [
+      {
+        "identity": 1121,
+        "labels": [
+          "Administrators"
+        ],
+        "properties": {
+          "address": "14433 Cook Parkways Apt. 101
+Port Sharon, NM 12981",
+          "birthdate": "1972-12-04",
+          "nationality": "Armenia",
+          "name": "Cynthia Simmons",
+          "id": 1122
+        },
+        "elementId": "4:034c8a42-179d-42e6-bd14-56b35acf724d:1121"
+      },
+      {
+        "identity": 2097,
+        "labels": [
+          "Administrators"
+        ],
+        "properties": {
+          "address": "297 Black Island Suite 718
+Sarafort, GU 53324",
+          "birthdate": "1958-05-10",
+          "nationality": "French Polynesia",
+          "name": "Michael Jenkins",
+          "id": 2098
+        },
+        "elementId": "4:034c8a42-179d-42e6-bd14-56b35acf724d:2097"
+      }
+    ],
+    "ubos": [
+      {
+        "identity": 5063,
+        "labels": [
+          "Ubo"
+        ],
+        "properties": {
+          "address": "6311 Darin Key
+East Nathaniel, NH 87668",
+          "birthdate": "1989-06-03",
+          "nationality": "Mali",
+          "name": "Leslie Klein",
+          "id": 64,
+          "type": "Company",
+          "ownership_percentage": 87.07
+        },
+        "elementId": "4:034c8a42-179d-42e6-bd14-56b35acf724d:5063"
+      },
+      {
+        "identity": 6799,
+        "labels": [
+          "Ubo"
+        ],
+        "properties": {
+          "address": "7329 Hughes Isle
+Port Laura, CT 08915",
+          "birthdate": "1996-01-04",
+          "nationality": "Guinea-Bissau",
+          "name": "Isabel Nash",
+          "id": 1800,
+          "type": "Company",
+          "ownership_percentage": 67.87
+        },
+        "elementId": "4:034c8a42-179d-42e6-bd14-56b35acf724d:6799"
+      }
+    ],
+    "shareholders": [
+      {
+        "identity": 2970,
+        "labels": [
+          "Shareholders"
+        ],
+        "properties": {
+          "address": "48744 Ryan Union Apt. 877
+Port Jamesville, MI 31505",
+          "birthdate": "2005-01-18",
+          "nationality": "British Virgin Islands",
+          "name": "Christine Jacobson",
+          "id": 471,
+          "type": "Company",
+          "ownership_percentage": 71.89
+        },
+        "elementId": "4:034c8a42-179d-42e6-bd14-56b35acf724d:2970"
+      },
+      {
+        "identity": 3024,
+        "labels": [
+          "Shareholders"
+        ],
+        "properties": {
+          "address": "8973 Jackson Summit Apt. 232
+Mariaborough, ND 96246",
+          "birthdate": "1962-11-06",
+          "nationality": "British Virgin Islands",
+          "name": "Luis Reid",
+          "id": 525,
+          "type": "Person",
+          "ownership_percentage": 0.89
+        },
+        "elementId": "4:034c8a42-179d-42e6-bd14-56b35acf724d:3024"
+      },
+      {
+        "identity": 3246,
+        "labels": [
+          "Shareholders"
+        ],
+        "properties": {
+          "address": "PSC 3622, Box 2762
+APO AP 37267",
+          "birthdate": "1951-11-25",
+          "nationality": "British Virgin Islands",
+          "name": "David Miles",
+          "id": 747,
+          "type": "Person",
+          "ownership_percentage": 50.67
+        },
+        "elementId": "4:034c8a42-179d-42e6-bd14-56b35acf724d:3246"
+      },
+      {
+        "identity": 3567,
+        "labels": [
+          "Shareholders"
+        ],
+        "properties": {
+          "address": "537 Brandi Glens
+Bondport, DE 40493",
+          "birthdate": "1944-01-07",
+          "nationality": "British Virgin Islands",
+          "name": "Kelly Roth",
+          "id": 1068,
+          "type": "Company",
+          "ownership_percentage": 7.77
+        },
+        "elementId": "4:034c8a42-179d-42e6-bd14-56b35acf724d:3567"
+      },
+      {
+        "identity": 3595,
+        "labels": [
+          "Shareholders"
+        ],
+        "properties": {
+          "address": "01955 Meyer Wells
+Eduardofurt, MT 43310",
+          "birthdate": "1960-03-11",
+          "nationality": "British Virgin Islands",
+          "name": "Joseph Kirby",
+          "id": 1096,
+          "type": "Company",
+          "ownership_percentage": 54.61
+        },
+        "elementId": "4:034c8a42-179d-42e6-bd14-56b35acf724d:3595"
+      },
+      {
+        "identity": 4291,
+        "labels": [
+          "Shareholders"
+        ],
+        "properties": {
+          "address": "7775 Graham Rue Apt. 133
+Alexandriaburgh, WV 84933",
+          "birthdate": "1988-12-15",
+          "nationality": "British Virgin Islands",
+          "name": "Madison Meza",
+          "id": 1792,
+          "type": "Person",
+          "ownership_percentage": 11.33
+        },
+        "elementId": "4:034c8a42-179d-42e6-bd14-56b35acf724d:4291"
+      },
+      {
+        "identity": 4503,
+        "labels": [
+          "Shareholders"
+        ],
+        "properties": {
+          "address": "USS Rogers
+FPO AE 79923",
+          "birthdate": "1960-03-16",
+          "nationality": "British Virgin Islands",
+          "name": "Chelsey Hart",
+          "id": 2004,
+          "type": "Person",
+          "ownership_percentage": 22.8
+        },
+        "elementId": "4:034c8a42-179d-42e6-bd14-56b35acf724d:4503"
+      },
+      {
+        "identity": 4680,
+        "labels": [
+          "Shareholders"
+        ],
+        "properties": {
+          "address": "03597 Margaret Trail
+East Robertmouth, HI 08465",
+          "birthdate": "1936-07-31",
+          "nationality": "British Virgin Islands",
+          "name": "Scott Smith",
+          "id": 2181,
+          "type": "Person",
+          "ownership_percentage": 0.83
+        },
+        "elementId": "4:034c8a42-179d-42e6-bd14-56b35acf724d:4680"
+      },
+      {
+        "identity": 4923,
+        "labels": [
+          "Shareholders"
+        ],
+        "properties": {
+          "address": "79592 Barton Club
+North Stephanieport, OK 17437",
+          "birthdate": "2003-07-24",
+          "nationality": "British Virgin Islands",
+          "name": "David Black",
+          "id": 2424,
+          "type": "Company",
+          "ownership_percentage": 19.75
+        },
+        "elementId": "4:034c8a42-179d-42e6-bd14-56b35acf724d:4923"
+      }
+    ],
+    "transactions": [
+      {
+        "identity": 13306,
+        "labels": [
+          "Transactions"
+        ],
+        "properties": {
+          "date": "2019-10-26",
+          "amount": 4819.74,
+          "currency": "SEK",
+          "id": 3307,
+          "type": "Refund"
+        },
+        "elementId": "4:034c8a42-179d-42e6-bd14-56b35acf724d:13306"
+      },
+      {
+        "identity": 62016,
+        "labels": [
+          "Transactions"
+        ],
+        "properties": {
+          "date": "2020-09-05",
+          "amount": 3628.37,
+          "currency": "SEK",
+          "id": 52017,
+          "type": "Payment"
+        },
+        "elementId": "4:034c8a42-179d-42e6-bd14-56b35acf724d:62016"
+      }
+    ],
+    "total_amount": 8448.11
+  }
+]

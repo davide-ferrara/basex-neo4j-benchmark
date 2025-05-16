@@ -2,6 +2,9 @@ import pandas as pd
 from py2neo import Graph, Node, Relationship
 import random
 
+address = "bolt://localhost:7687"
+username = "neo4j"
+password = "12345678"
 
 # Funzione per creare nodi e relazioni nel grafo Neo4j
 def create_graph(
@@ -162,25 +165,25 @@ def create_graph(
 
 
 # Carico i dataset CSV
-admins = pd.read_csv("dataset/administrators.csv", encoding="ISO-8859-1")
+admins = pd.read_csv("dataset/admins.csv", encoding="ISO-8859-1")
 shareholders = pd.read_csv("dataset/shareholders.csv", encoding="ISO-8859-1")
 ubos = pd.read_csv("dataset/ubos.csv", encoding="ISO-8859-1")
 transactions = pd.read_csv("dataset/transactions.csv", encoding="ISO-8859-1")
 companies = pd.read_csv("dataset/companies.csv", encoding="ISO-8859-1")
 kyc_aml_checks = pd.read_csv("dataset/kyc_aml_checks.csv", encoding="ISO-8859-1")
 
-# Connessione ai database Neo4j
-graph100 = Graph("bolt://localhost:7687", auth=("neo4j", "12345678"), name="dataset100")
-graph75 = Graph("bolt://localhost:7687", auth=("neo4j", "12345678"), name="dataset75")
-graph50 = Graph("bolt://localhost:7687", auth=("neo4j", "12345678"), name="dataset50")
-graph25 = Graph("bolt://localhost:7687", auth=("neo4j", "12345678"), name="dataset25")
 
+# Connessione ai database neo4j
+db_name = "database"
+graph100 = Graph(address, auth=(username, password), name=f"{db_name}100")
+graph75 = Graph(address, auth=(username, password), name=f"{db_name}75")
+graph50 = Graph(address, auth=(username, password), name=f"{db_name}50")
+graph25 = Graph(address, auth=(username, password), name=f"{db_name}25")
 
 # Crea i grafi per i diversi dataset partendo dal 100%
 create_graph(
     graph100, admins, shareholders, ubos, transactions, companies, kyc_aml_checks
 )
-
 print("Dataset 100% loaded successfully!")
 
 # Prende il 75% dal 100%
@@ -237,7 +240,6 @@ create_graph(
     companies_25,
     kyc_aml_checks_25,
 )
-
 
 print("Dataset 25% loaded successfully!")
 

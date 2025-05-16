@@ -1,0 +1,395 @@
+
+Analysis by percentage: 100%
+
+Company name with the specified name: 
+<ubo_record entity_type="companies">
+    <id>5722</id>
+    <name>Robertson Inc</name>
+    <address>012 Michael Plains
+Amyport, MI 27070</address>
+    <legal_form>Trust</legal_form>
+    <registration_details>727-96-9636</registration_details>
+    <financial_data>[{"year": 2021, "revenue": 546278.77, "profit": 53410.93}, {"year": 2016, "revenue": 381695.72, "profit": 452075.68}]</financial_data>
+    <administrators>[740, 1949]</administrators>
+    <shareholders>[880, 2006, 749, 1306, 1841, 1231, 2047, 1389, 592]</shareholders>
+    <ubo>[1340, 3370]</ubo>
+    <transactions>[172933]</transactions>
+  </ubo_record>
+
+Response time (first run - Query 1): 281.08 ms
+Average time of 30 successive executions (Query 1): 277.04 ms
+Confidence interval (Query 1): [273.27, 280.82] ms
+
+Company details with ID 2764 and administrators: 
+<result><administrators/></result>
+
+Response Time (First Run - Query 2): 39.07 ms
+Average time of 30 successive executions (Query 2): 1.55 ms
+Confidence Interval (Query 2): [1.35, 1.76] ms
+
+Company details with ID 2764, administrators and UBO: 
+<result>
+  <administrators>
+    <message>No administrators found</message>
+  </administrators>
+  <ubos>
+    <message>No UBOs found with more than 25% ownership</message>
+  </ubos>
+</result>
+
+Response Time (First Run - Query 3): 9.75 ms
+Average time of 30 successive executions (Query 3): 2.29 ms
+Confidence Interval (Query 3): [2.16, 2.42] ms
+
+Company details with ID 2764, administrators, UBO and transactions: 
+<result>
+  <administrators>
+    <message>No administrators found</message>
+  </administrators>
+  <ubos>
+    <message>No UBOs found with more than 25% ownership</message>
+  </ubos>
+  <transactions>
+    <message>No transactions found in the specified period</message>
+  </transactions>
+  <total_transaction_amount>0</total_transaction_amount>
+</result>
+
+Response Time (First Run - Query 4): 2.6 ms
+Average time of 30 successive executions (Query 4): 2.05 ms
+Confidence Interval (Query 4): [1.95, 2.15] ms
+
+Company details with ID 2764 Query 5: 
+<result>
+  <ubo_record entity_type="companies">
+    <id>2764</id>
+    <name>Jones, Campbell and Clark</name>
+    <address>17574 Donald Shoals Suite 522
+Port Judyport, FL 26854</address>
+    <legal_form>Coop</legal_form>
+    <registration_details>840-72-7780</registration_details>
+    <financial_data>[{"year": 2022, "revenue": 233112.41, "profit": 428486.2}, {"year": 2020, "revenue": 490346.36, "profit": 348760.5}, {"year": 2018, "revenue": 169237.65, "profit": 193709.8}, {"year": 2018, "revenue": 995131.06, "profit": 182076.09}, {"year": 2023, "revenue": 494248.76, "profit": 389089.31}]</financial_data>
+    <administrators>[1430, 2210, 391]</administrators>
+    <shareholders>[1790, 1860, 63, 1398]</shareholders>
+    <ubo>[4258]</ubo>
+    <transactions>[145282, 27496, 11149]</transactions>
+  </ubo_record>
+  <administrators>
+    <ubo_record entity_type="administrators">
+    <id>1430</id>
+    <name>Rebecca Fowler</name>
+    <address>2211 Edgar Mills
+Larachester, AK 90925</address>
+    <birthdate>1972-12-02</birthdate>
+    <nationality>Hungary</nationality>
+  </ubo_record>
+    <ubo_record entity_type="administrators">
+    <id>2210</id>
+    <name>Jeffrey Wallace</name>
+    <address>830 Myers Lane Apt. 576
+South Jennifer, DE 72109</address>
+    <birthdate>1955-06-12</birthdate>
+    <nationality>Norfolk Island</nationality>
+  </ubo_record>
+    <ubo_record entity_type="administrators">
+    <id>391</id>
+    <name>Richard Murphy</name>
+    <address>7897 Walters Ports Suite 547
+Whitemouth, TN 68034</address>
+    <birthdate>1967-04-09</birthdate>
+    <nationality>Benin</nationality>
+  </ubo_record>
+  </administrators>
+  <ubos>
+    <message>No UBOs found with more than 25% ownership</message>
+  </ubos>
+  <transactions>
+    <message>No transactions found in the specified period with the currency EUR</message>
+  </transactions>
+  <total_transaction_amount>0</total_transaction_amount>
+  <shareholders>
+    <ubo_record entity_type="shareholders">
+    <id>1790</id>
+    <name>Heather Kemp</name>
+    <address>1647 Wiggins Inlet Suite 624
+East Alishahaven, NV 41820</address>
+    <birthdate>1955-04-16</birthdate>
+    <nationality>British Virgin Islands</nationality>
+    <type>Company</type>
+    <ownership_percentage>76.34</ownership_percentage>
+  </ubo_record>
+    <ubo_record entity_type="shareholders">
+    <id>1860</id>
+    <name>Jennifer Meyers</name>
+    <address>0708 Smith Crossing
+West Samuel, KS 93726</address>
+    <birthdate>1953-05-19</birthdate>
+    <nationality>British Virgin Islands</nationality>
+    <type>Person</type>
+    <ownership_percentage>90.12</ownership_percentage>
+  </ubo_record>
+    <ubo_record entity_type="shareholders">
+    <id>63</id>
+    <name>Amanda Bright</name>
+    <address>171 Underwood Points
+Brownburgh, MI 07147</address>
+    <birthdate>1972-12-11</birthdate>
+    <nationality>British Virgin Islands</nationality>
+    <type>Person</type>
+    <ownership_percentage>49.3</ownership_percentage>
+  </ubo_record>
+    <ubo_record entity_type="shareholders">
+    <id>1398</id>
+    <name>Katherine Higgins</name>
+    <address>9082 Lewis Estates Suite 279
+New Danielton, DE 42082</address>
+    <birthdate>2000-11-08</birthdate>
+    <nationality>British Virgin Islands</nationality>
+    <type>Company</type>
+    <ownership_percentage>69.23</ownership_percentage>
+  </ubo_record>
+  </shareholders>
+</result>
+
+Response Time (First Run - Query 5): 3359.66 ms
+Average time of 30 successive executions (Query 5): 3455.48 ms
+Confidence Interval (Query 5): [3433.55, 3477.4] ms
+
+----------------------------------------------------------------------------------------------------
+
+Analysis by percentage: 75%
+
+Company name with the specified name: 
+<ubo_record entity_type="companies">
+    <id>5722</id>
+    <name>Robertson Inc</name>
+    <address>012 Michael Plains
+Amyport, MI 27070</address>
+    <legal_form>Trust</legal_form>
+    <registration_details>727-96-9636</registration_details>
+    <financial_data>[{"year": 2021, "revenue": 546278.77, "profit": 53410.93}, {"year": 2016, "revenue": 381695.72, "profit": 452075.68}]</financial_data>
+    <administrators>[740, 1949]</administrators>
+    <shareholders>[880, 2006, 749, 1306, 1841, 1231, 2047, 1389, 592]</shareholders>
+    <ubo>[1340, 3370]</ubo>
+    <transactions>[172933]</transactions>
+  </ubo_record>
+
+Response time (first run - Query 1): 227.39 ms
+Average time of 30 successive executions (Query 1): 235.21 ms
+Confidence interval (Query 1): [233.19, 237.24] ms
+
+Company details with ID 2764 and administrators: 
+<result><administrators/></result>
+
+Response Time (First Run - Query 2): 1.54 ms
+Average time of 30 successive executions (Query 2): 0.9 ms
+Confidence Interval (Query 2): [0.84, 0.96] ms
+
+Company details with ID 2764, administrators and UBO: 
+<result>
+  <administrators>
+    <message>No administrators found</message>
+  </administrators>
+  <ubos>
+    <message>No UBOs found with more than 25% ownership</message>
+  </ubos>
+</result>
+
+Response Time (First Run - Query 3): 1.31 ms
+Average time of 30 successive executions (Query 3): 1.09 ms
+Confidence Interval (Query 3): [1.04, 1.15] ms
+
+Company details with ID 2764, administrators, UBO and transactions: 
+<result>
+  <administrators>
+    <message>No administrators found</message>
+  </administrators>
+  <ubos>
+    <message>No UBOs found with more than 25% ownership</message>
+  </ubos>
+  <transactions>
+    <message>No transactions found in the specified period</message>
+  </transactions>
+  <total_transaction_amount>0</total_transaction_amount>
+</result>
+
+Response Time (First Run - Query 4): 1.49 ms
+Average time of 30 successive executions (Query 4): 1.57 ms
+Confidence Interval (Query 4): [1.44, 1.69] ms
+
+Company details with ID 2764 Query 5: 
+<result>
+  <administrators>
+    <message>No administrators found</message>
+  </administrators>
+  <ubos>
+    <message>No UBOs found with more than 25% ownership</message>
+  </ubos>
+  <transactions>
+    <message>No transactions found in the specified period with the currency EUR</message>
+  </transactions>
+  <total_transaction_amount>0</total_transaction_amount>
+  <shareholders>
+    <message>No shareholders found</message>
+  </shareholders>
+</result>
+
+Response Time (First Run - Query 5): 248.79 ms
+Average time of 30 successive executions (Query 5): 228.26 ms
+Confidence Interval (Query 5): [222.38, 234.14] ms
+
+----------------------------------------------------------------------------------------------------
+
+Analysis by percentage: 50%
+
+Company name with the specified name: 
+<ubo_record entity_type="companies">
+    <id>5722</id>
+    <name>Robertson Inc</name>
+    <address>012 Michael Plains
+Amyport, MI 27070</address>
+    <legal_form>Trust</legal_form>
+    <registration_details>727-96-9636</registration_details>
+    <financial_data>[{"year": 2021, "revenue": 546278.77, "profit": 53410.93}, {"year": 2016, "revenue": 381695.72, "profit": 452075.68}]</financial_data>
+    <administrators>[740, 1949]</administrators>
+    <shareholders>[880, 2006, 749, 1306, 1841, 1231, 2047, 1389, 592]</shareholders>
+    <ubo>[1340, 3370]</ubo>
+    <transactions>[172933]</transactions>
+  </ubo_record>
+
+Response time (first run - Query 1): 151.43 ms
+Average time of 30 successive executions (Query 1): 151.99 ms
+Confidence interval (Query 1): [150.88, 153.09] ms
+
+Company details with ID 2764 and administrators: 
+<result><administrators/></result>
+
+Response Time (First Run - Query 2): 1.01 ms
+Average time of 30 successive executions (Query 2): 0.68 ms
+Confidence Interval (Query 2): [0.65, 0.71] ms
+
+Company details with ID 2764, administrators and UBO: 
+<result>
+  <administrators>
+    <message>No administrators found</message>
+  </administrators>
+  <ubos>
+    <message>No UBOs found with more than 25% ownership</message>
+  </ubos>
+</result>
+
+Response Time (First Run - Query 3): 1.18 ms
+Average time of 30 successive executions (Query 3): 1.0 ms
+Confidence Interval (Query 3): [0.98, 1.03] ms
+
+Company details with ID 2764, administrators, UBO and transactions: 
+<result>
+  <administrators>
+    <message>No administrators found</message>
+  </administrators>
+  <ubos>
+    <message>No UBOs found with more than 25% ownership</message>
+  </ubos>
+  <transactions>
+    <message>No transactions found in the specified period</message>
+  </transactions>
+  <total_transaction_amount>0</total_transaction_amount>
+</result>
+
+Response Time (First Run - Query 4): 1.52 ms
+Average time of 30 successive executions (Query 4): 1.28 ms
+Confidence Interval (Query 4): [1.25, 1.32] ms
+
+Company details with ID 2764 Query 5: 
+<result>
+  <administrators>
+    <message>No administrators found</message>
+  </administrators>
+  <ubos>
+    <message>No UBOs found with more than 25% ownership</message>
+  </ubos>
+  <transactions>
+    <message>No transactions found in the specified period with the currency EUR</message>
+  </transactions>
+  <total_transaction_amount>0</total_transaction_amount>
+  <shareholders>
+    <message>No shareholders found</message>
+  </shareholders>
+</result>
+
+Response Time (First Run - Query 5): 159.62 ms
+Average time of 30 successive executions (Query 5): 143.75 ms
+Confidence Interval (Query 5): [142.46, 145.03] ms
+
+----------------------------------------------------------------------------------------------------
+
+Analysis by percentage: 25%
+
+No companies found with the specified name: Robertson Inc
+
+Response time (first run - Query 1): 77.67 ms
+Average time of 30 successive executions (Query 1): 76.92 ms
+Confidence interval (Query 1): [76.7, 77.15] ms
+
+Company details with ID 2764 and administrators: 
+<result><administrators/></result>
+
+Response Time (First Run - Query 2): 1.0 ms
+Average time of 30 successive executions (Query 2): 0.58 ms
+Confidence Interval (Query 2): [0.56, 0.6] ms
+
+Company details with ID 2764, administrators and UBO: 
+<result>
+  <administrators>
+    <message>No administrators found</message>
+  </administrators>
+  <ubos>
+    <message>No UBOs found with more than 25% ownership</message>
+  </ubos>
+</result>
+
+Response Time (First Run - Query 3): 0.9 ms
+Average time of 30 successive executions (Query 3): 0.88 ms
+Confidence Interval (Query 3): [0.87, 0.89] ms
+
+Company details with ID 2764, administrators, UBO and transactions: 
+<result>
+  <administrators>
+    <message>No administrators found</message>
+  </administrators>
+  <ubos>
+    <message>No UBOs found with more than 25% ownership</message>
+  </ubos>
+  <transactions>
+    <message>No transactions found in the specified period</message>
+  </transactions>
+  <total_transaction_amount>0</total_transaction_amount>
+</result>
+
+Response Time (First Run - Query 4): 1.36 ms
+Average time of 30 successive executions (Query 4): 1.22 ms
+Confidence Interval (Query 4): [1.19, 1.25] ms
+
+Company details with ID 2764 Query 5: 
+<result>
+  <administrators>
+    <message>No administrators found</message>
+  </administrators>
+  <ubos>
+    <message>No UBOs found with more than 25% ownership</message>
+  </ubos>
+  <transactions>
+    <message>No transactions found in the specified period with the currency EUR</message>
+  </transactions>
+  <total_transaction_amount>0</total_transaction_amount>
+  <shareholders>
+    <message>No shareholders found</message>
+  </shareholders>
+</result>
+
+Response Time (First Run - Query 5): 78.2 ms
+Average time of 30 successive executions (Query 5): 73.86 ms
+Confidence Interval (Query 5): [73.29, 74.42] ms
+
+----------------------------------------------------------------------------------------------------
+Average response times were written in 'basex_response_times_first_execution.csv' and 'basex_response_times_average_30.csv'.

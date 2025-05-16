@@ -1,0 +1,88 @@
+﻿[
+  {
+    "company": {
+      "identity": 211913,
+      "labels": [
+        "Companies"
+      ],
+      "properties": {
+        "address": "45909 Richard Grove
+South Adamview, NE 20814",
+        "registration_details": "257-25-5920",
+        "name": "Johnson-Rodriguez",
+        "id": 1914,
+        "financial_data": "[{\"year\": 2015, \"revenue\": 660228.72, \"profit\": 107310.17}, {\"year\": 2022, \"revenue\": 398216.76, \"profit\": 283462.29}]",
+        "legal_form": "Onlus"
+      },
+      "elementId": "4:034c8a42-179d-42e6-bd14-56b35acf724d:211913"
+    },
+    "administrators": [
+      {
+        "identity": 1121,
+        "labels": [
+          "Administrators"
+        ],
+        "properties": {
+          "address": "14433 Cook Parkways Apt. 101
+Port Sharon, NM 12981",
+          "birthdate": "1972-12-04",
+          "nationality": "Armenia",
+          "name": "Cynthia Simmons",
+          "id": 1122
+        },
+        "elementId": "4:034c8a42-179d-42e6-bd14-56b35acf724d:1121"
+      },
+      {
+        "identity": 2097,
+        "labels": [
+          "Administrators"
+        ],
+        "properties": {
+          "address": "297 Black Island Suite 718
+Sarafort, GU 53324",
+          "birthdate": "1958-05-10",
+          "nationality": "French Polynesia",
+          "name": "Michael Jenkins",
+          "id": 2098
+        },
+        "elementId": "4:034c8a42-179d-42e6-bd14-56b35acf724d:2097"
+      }
+    ],
+    "ubos": [
+      {
+        "identity": 5063,
+        "labels": [
+          "Ubo"
+        ],
+        "properties": {
+          "address": "6311 Darin Key
+East Nathaniel, NH 87668",
+          "birthdate": "1989-06-03",
+          "nationality": "Mali",
+          "name": "Leslie Klein",
+          "id": 64,
+          "type": "Company",
+          "ownership_percentage": 87.07
+        },
+        "elementId": "4:034c8a42-179d-42e6-bd14-56b35acf724d:5063"
+      },
+      {
+        "identity": 6799,
+        "labels": [
+          "Ubo"
+        ],
+        "properties": {
+          "address": "7329 Hughes Isle
+Port Laura, CT 08915",
+          "birthdate": "1996-01-04",
+          "nationality": "Guinea-Bissau",
+          "name": "Isabel Nash",
+          "id": 1800,
+          "type": "Company",
+          "ownership_percentage": 67.87
+        },
+        "elementId": "4:034c8a42-179d-42e6-bd14-56b35acf724d:6799"
+      }
+    ]
+  }
+]

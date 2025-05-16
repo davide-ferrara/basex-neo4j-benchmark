@@ -1,0 +1,57 @@
+<result>
+  <company>
+    <ubo_record entity_type="companies">
+    <id>1914</id>
+    <name>Johnson-Rodriguez</name>
+    <address>45909 Richard Grove
+South Adamview, NE 20814</address>
+    <legal_form>Onlus</legal_form>
+    <registration_details>257-25-5920</registration_details>
+    <financial_data>[{"year": 2015, "revenue": 660228.72, "profit": 107310.17}, {"year": 2022, "revenue": 398216.76, "profit": 283462.29}]</financial_data>
+    <administrators>[2098, 1122]</administrators>
+    <shareholders>[747, 1792, 2424, 2181, 1068, 2004, 471, 1096, 525]</shareholders>
+    <ubo>[1754, 64, 1800]</ubo>
+    <transactions>[164307, 29139, 3307, 107910, 52017]</transactions>
+  </ubo_record>
+  </company>
+  <administrators>
+    <ubo_record entity_type="administrators">
+    <id>2098</id>
+    <name>Michael Jenkins</name>
+    <address>297 Black Island Suite 718
+Sarafort, GU 53324</address>
+    <birthdate>1958-05-10</birthdate>
+    <nationality>French Polynesia</nationality>
+  </ubo_record>
+    <ubo_record entity_type="administrators">
+    <id>1122</id>
+    <name>Cynthia Simmons</name>
+    <address>14433 Cook Parkways Apt. 101
+Port Sharon, NM 12981</address>
+    <birthdate>1972-12-04</birthdate>
+    <nationality>Armenia</nationality>
+  </ubo_record>
+  </administrators>
+  <ubos>
+    <ubo_record entity_type="ubos">
+    <id>64</id>
+    <name>Leslie Klein</name>
+    <address>6311 Darin Key
+East Nathaniel, NH 87668</address>
+    <birthdate>1989-06-03</birthdate>
+    <nationality>Mali</nationality>
+    <type>Company</type>
+    <ownership_percentage>87.07</ownership_percentage>
+  </ubo_record>
+    <ubo_record entity_type="ubos">
+    <id>1800</id>
+    <name>Isabel Nash</name>
+    <address>7329 Hughes Isle
+Port Laura, CT 08915</address>
+    <birthdate>1996-01-04</birthdate>
+    <nationality>Guinea-Bissau</nationality>
+    <type>Company</type>
+    <ownership_percentage>67.87</ownership_percentage>
+  </ubo_record>
+  </ubos>
+</result>

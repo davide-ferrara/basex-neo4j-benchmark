@@ -1,0 +1,20 @@
+﻿[
+  {
+    "company": {
+      "identity": 211913,
+      "labels": [
+        "Companies"
+      ],
+      "properties": {
+        "address": "45909 Richard Grove
+South Adamview, NE 20814",
+        "registration_details": "257-25-5920",
+        "name": "Johnson-Rodriguez",
+        "id": 1914,
+        "financial_data": "[{\"year\": 2015, \"revenue\": 660228.72, \"profit\": 107310.17}, {\"year\": 2022, \"revenue\": 398216.76, \"profit\": 283462.29}]",
+        "legal_form": "Onlus"
+      },
+      "elementId": "4:034c8a42-179d-42e6-bd14-56b35acf724d:211913"
+    }
+  }
+]
