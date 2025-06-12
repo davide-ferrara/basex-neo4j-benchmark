@@ -348,15 +348,13 @@ def query5(session, percentage):
 
 # Funzione principale per eseguire le query e misurare le performance
 def main():
-    session = BaseXClient.Session("localhost", 1984, "admin", "admin")
-
-    percentages = ["100", "75", "50", "25"]  # Percentuali del dataset
-    # Dizionario per la mappatura diretta dei dataset ai valori con il simbolo della percentuale nei file di ResponseTime
+    percentages = ["100", "75", "50", "25"]  # Percentuali del dataset Dizionario per la mappatura diretta dei dataset ai valori con il simbolo della percentuale nei file di ResponseTime
     dataset_mapping = {"100": "100%", "75": "75%", "50": "50%", "25": "25%"}
     first_execution_response_times = {}
     average_response_times = {}
 
     for percentage in percentages:
+        session = BaseXClient.Session("localhost", 1984, "admin", "admin")
         print(f"\nAnalysis by percentage: {percentage}%\n")
 
         # Query 1: Recupera il nome dell'azienda con il nome specificato
@@ -367,6 +365,9 @@ def main():
             print(f"Company name with the specified name: \n{company}\n")
         else:
             print(f"No companies found with the specified name: {company_name}\n")
+        session.close()
+
+        session = BaseXClient.Session("localhost", 1984, "admin", "admin")
 
         first_execution_time = round((end_time - start_time) * 1000, 2)
         print(f"Response time (first run - Query 1): {first_execution_time} ms")
@@ -386,6 +387,8 @@ def main():
             mean,
             margin_of_error,
         )
+        session.close()
+        session = BaseXClient.Session("localhost", 1984, "admin", "admin")
 
         # Query 2: Recupera i dettagli dell'azienda e dei suoi amministratori
         start_time = time.time()
@@ -398,6 +401,9 @@ def main():
             # print(f"Dettagli degli amministratori dell'azienda con ID {company_id}: \n{administrators}\n")
         else:
             print(f"No companies found with ID {company_id}\n")
+        session.close()
+
+        session = BaseXClient.Session("localhost", 1984, "admin", "admin")
 
         first_execution_time = round((end_time - start_time) * 1000, 2)
         print(f"Response Time (First Run - Query 2): {first_execution_time} ms")
@@ -418,6 +424,9 @@ def main():
             margin_of_error,
         )
 
+        session.close()
+        session = BaseXClient.Session("localhost", 1984, "admin", "admin")
+
         # Query 3: Recupera i dettagli dell'azienda, dei suoi amministratori e degli UBO con più del 25%
         start_time = time.time()
         company_id, company = query3(session, percentage)
@@ -428,10 +437,13 @@ def main():
             )
         else:
             print(f"No companies found with ID {company_id}\n")
+        session.close()
 
         first_execution_time = round((end_time - start_time) * 1000, 2)
         print(f"Response Time (First Run - Query 3): {first_execution_time} ms")
         first_execution_response_times[f"{percentage} - Query 3"] = first_execution_time
+
+        session = BaseXClient.Session("localhost", 1984, "admin", "admin")
 
         average_time_subsequent, mean, margin_of_error = measure_query_performance(
             session, query3, percentage
@@ -448,6 +460,9 @@ def main():
             margin_of_error,
         )
 
+        session.close()
+        session = BaseXClient.Session("localhost", 1984, "admin", "admin")
+
         # Query 4: Recupera i dettagli dell'azienda, dei suoi amministratori, UBO e la somma delle transazioni in un periodo
         start_time = time.time()
         company_id, company = query4(session, percentage)
@@ -458,6 +473,9 @@ def main():
             )
         else:
             print(f"No companies found with ID {company_id}\n")
+
+        session.close()
+        session = BaseXClient.Session("localhost", 1984, "admin", "admin")
 
         first_execution_time = round((end_time - start_time) * 1000, 2)
         print(f"Response Time (First Run - Query 4): {first_execution_time} ms")
@@ -478,6 +496,9 @@ def main():
             margin_of_error,
         )
 
+        session.close()
+        session = BaseXClient.Session("localhost", 1984, "admin", "admin")
+
         # Query 5: Recupera i dettagli dell'azienda, dei suoi amministratori, UBO e la somma delle transazioni in una valuta specifica e risultati KYC/AML recenti
         start_time = time.time()
         company_id, company = query5(session, percentage)
@@ -486,10 +507,13 @@ def main():
             print(f"Company details with ID {company_id} Query 5: \n{company}\n")
         else:
             print(f"No companies found with ID {company_id}\n")
+        session.close()
 
         first_execution_time = round((end_time - start_time) * 1000, 2)
         print(f"Response Time (First Run - Query 5): {first_execution_time} ms")
         first_execution_response_times[f"{percentage} - Query 5"] = first_execution_time
+
+        session = BaseXClient.Session("localhost", 1984, "admin", "admin")
 
         average_time_subsequent, mean, margin_of_error = measure_query_performance(
             session, query5, percentage
@@ -505,12 +529,13 @@ def main():
             mean,
             margin_of_error,
         )
+        session.close()
 
         print("-" * 100)  # Separatore tra le diverse percentuali
 
     # Salva i risultati
     with open(
-        "./res/basex_response_times_first_execution.csv",
+        "basex/res/basex_response_times_first_execution.csv",
         mode="w",
         newline="",
     ) as file:
@@ -522,7 +547,7 @@ def main():
             writer.writerow([dataset, query, first_execution_time])
 
     with open(
-        "./res/basex_response_times_average_30.csv", mode="w", newline=""
+        "basex/res/basex_response_times_average_30.csv", mode="w", newline=""
     ) as file:
         writer = csv.writer(file)
         writer.writerow(
@@ -555,9 +580,6 @@ def main():
         print(
             "Average response times were written in 'basex_response_times_first_execution.csv' and 'basex_response_times_average_30.csv'."
         )
-
-    session.close()
-
 
 if __name__ == "__main__":
     main()
